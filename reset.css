@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%; /* Define 1rem como 10px, tornando mais fácil para ajustar tamanhos de fonte. */
+  }
+  
+  body {
+    font-size: 1.6rem; /* define o tamanho de fonte padrão para 16px. */
+    line-height: 1.5; /* define a altura da linha para 1.5, melhorando a legibilidade. */
+    font-family: sans-serif; /* Define uma fonte sans-serif padrão para o corpo. */
+    color: #333; /* Define uma cor padrão para o texto do corpo. */
+    background-color: #fff; /* Define uma cor de fundo padrão para o corpo. */
+  }
+  
+  /* reset de links */
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a:focus,
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* reset de títulos */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  
+  h1 {
+    font-size: 3.6rem;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  
+  h3 {
+    font-size: 2.4rem;
+  }
+  
+  h4 {
+    font-size: 1.8rem;
+  }
+  
+  h5 {
+    font-size: 1.6rem;
+  }
+  
+  h6 {
+    font-size: 1.4rem;
+  }
+  
+  /* reset de parágrafos */
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* reset de listas */
+  ul,
+  ol {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* reset de imagens */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* reset de formulários */
+  input,
+  textarea,
+  select,
+  button {
+    font-size: 100%; /* Define o tamanho de fonte padrão para os elementos do formulário. */
+    margin: 0; /* remove margens padrão do formulário. */
+    padding: 0; /* remove preenchimento padrão do formulário. */
+    border: none; /* remove bordas padrão do formulário. */
+    background-color: transparent; /* remove fundo padrão do formulário. */
+    -webkit-appearance: none; /* remove estilos de aparência padrão do formulário no Chrome e no Safari */
+  }
+  
+  /* reset de botões */
+  button {
+    cursor: pointer;
+  }
+  
+  /* reset de tabelas */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    padding: 0.5rem;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
