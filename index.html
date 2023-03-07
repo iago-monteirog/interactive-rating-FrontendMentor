@@ -25,52 +25,39 @@
     <main>
       <div class="content">
         <h1>How did we do?</h1>
-        <span>Please let us know how we did with your support request. All feedback is appreciated
+        <span class="paragraph">Please let us know how we did with your support request. All feedback is appreciated
           to help us improve our offering!</span>
-        <form class="form">
-          <div class="circle">
-            <input type="radio" id="one">
-            <label>1</label>
-          </div>
-          <div class="circle">
-            <input type="radio" id="two">
-            <label>2</label>
-          </div>
-          <div class="circle">
-            <input type="radio" id="three">
-            <label>3</label>
-          </div>
-          <div class="circle">
-            <input type="radio" id="four">
-            <label>4</label>
-          </div>
-          <div class="circle">
-            <input type="radio" id="five">
-            <label>5</label>
-          </div>
-          <button class="btn" type="submit">S U B M I T</button>
+        <form class="form" id="form">
+          <label class="circle">
+            <input type="radio" name="rating" value="1" />
+            <span>1</span>
+          </label>
+          <label class="circle">
+            <input type="radio" name="rating" value="2" />
+            <span>2</span>
+          </label>
+          <label class="circle">
+            <input type="radio" name="rating" value="3" />
+            <span>3</span>
+          </label>
+          <label class="circle">
+            <input type="radio" name="rating" value="4" />
+            <span>4</span>
+          </label>
+          <label class="circle">
+            <input type="radio" name="rating" value="5" />
+            <span>5</span>
+          </label>
+          <button class="btn" type="submit" id="btn">S U B M I T</button>
         </form>
       </div>
     </main>
   </div>
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  <!-- You selected  Add rating here  out of 5 
-
-   Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch! -->
-
-  <!-- Thank you state end -->
-
-
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/iago-monteirog">Iago Garcia</a>.
   </div>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>

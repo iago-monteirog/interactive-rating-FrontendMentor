@@ -53,7 +53,7 @@ body {
     color: hsl(217, 12%, 80%);
 }
 
-.content span {
+.paragraph {
     color: hsl(217, 22%, 40%);
 }
 
@@ -67,8 +67,8 @@ body {
 }
 
 .form .circle:hover {
-    background-color: hsl(25, 97%, 53%);
     color: white;
+    background-color: hsl(25, 97%, 53%);
 }
 
 .btn {
@@ -100,6 +100,35 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+.thanks-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rate-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    background-color: hsl(213, 19%, 25%);
+    width: fit-content;
+    padding: 15px;
+    max-height: 0px;
+    margin: 20px 75px;
+}
+
+.thanks-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px
 }
 
 @media (max-width: 558px) {
